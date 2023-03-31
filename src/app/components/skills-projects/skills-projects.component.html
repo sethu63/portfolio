@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="skills">
+        <p class="heading">Skills:</p>
+        <div class="items">
+            <ul *ngFor="let skill of Skills">
+                <li>{{ skill }}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="projects">
+        <p class="heading">Projects:</p>
+        <div *ngFor="let project of Projects">
+            <p class="title">{{ project.title }} 
+                <a href="{{ project.link }}" target="_blank">
+                    <button mat-button>
+                        <mat-icon>link</mat-icon>
+                    </button>
+                </a>
+                <span class="type">{{ project.work }}</span>
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.main {
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    font-size: xx-large;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    height: 1px;
+    background-color: #2c542f;
+    float: inline-end;
+}

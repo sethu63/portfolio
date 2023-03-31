@@ -1,0 +1,17 @@
+<div class="main">
+    <p class="heading">Experience:</p>
+    <div class="experience" *ngFor="let job of jobs">
+        <div class="dates">
+            <div class="date">
+                <p>{{ job.startMonth }}<span class="year">{{ job.startYear }}</span></p>
+            </div>
+            <div class="date">
+                <p>{{ job.endMonth }}<span class="year">{{ job.endYear }}</span></p>
+            </div>
+        </div>
+        <div class="details">
+            <p class="heading">{{ job.title }}</p>
+            <p>{{ job.company }}</p>
+        </div>
+    </div>
+</div>

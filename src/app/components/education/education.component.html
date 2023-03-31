@@ -1,0 +1,15 @@
+<div class="main">
+    <p class="heading">Education:</p>
+    <div class="education" *ngFor="let course of courses">
+        <div class="dates">
+            <div class="date">
+                <p>{{ course.endYear }}<span class="year">{{ course.startYear }}</span></p>
+            </div>
+        </div>
+        <div class="details">
+            <p class="heading">{{ course.title }}</p>
+            <p>{{ course.university }}, <span class="location">Telangana, IN</span></p>
+            <p>GPA: {{ course.cgpa }}/10</p>
+        </div>
+    </div>
+</div>

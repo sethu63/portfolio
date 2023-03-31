@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="main" >
+        <div class="image-navigators">
+            <button class="navigators" (click)="prevCert()" [disabled]="i===0">
+                &laquo;
+            </button>
+            <div class="image">
+                <img src= "assets\certificates\{{ certificate.link }}" >
+            </div>
+            <button class="navigators" (click)="nextCert()" [disabled]="i===len-1">
+                &raquo;
+            </button>
+        </div>
+        <div class="contents">
+            <div class="count">
+                <p>{{ (i+1)+"/"+len }}</p>
+            </div>
+            <div class="title">
+                <p>{{ certificate.title }}</p>
+                <p>{{ certificate.authority }}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+* {
+    color: #2c542f;
+}
+.heading {
+    font-weight: bold;
+    font-size: 14pt;
+    color: inherit;
+}
+.items {
+    column-count: 3;
+    font-size: 12pt;
+}
+ul {
+    margin: 0;
+}
+a {
+    font-size: small;
+}
+button {
+    background-color: none;
+    min-width: fit-content;
+}
+.mat-icon {
+    color: #2c542f;
+}
+.type {
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+}
+.title {
+    margin: 0;
+    padding: 0;
+}

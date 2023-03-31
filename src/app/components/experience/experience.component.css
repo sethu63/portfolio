@@ -1,0 +1,32 @@
+.main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #2c542f;
+}
+.experience {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.details {
+    font-size: 12pt;
+}
+.heading {
+    font-weight: bold;
+    font-size: 14pt;
+    color: inherit;
+}
+.dates {
+    display: flex;
+}
+.date {
+    margin-right: 1rem;
+}
+.year {
+    display: block;
+    font-size: small;
+    text-align: center;
+}
