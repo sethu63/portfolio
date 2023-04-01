@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  constructor() {
+    const buildmessage: string = "This site is under build, fixing minor issues/Responsiveness will be active by: 02/04/2023";
+    alert(buildmessage);
+  }
 }
