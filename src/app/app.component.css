@@ -25,3 +25,48 @@
     display: flex;
     align-items: center;
 }
+
+/*
+Mobile screen CSS
+*/
+
+@media screen and (max-width: 1000px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .fixed-component {
+      position: static;
+      width: 100%;
+      min-height: 100vh;
+    }
+    .other-component {
+      width: 100%;
+    }
+    .navbar {
+      display: none;
+    }
+    .variable-component {
+      padding: 10px;
+      height: 100vh;
+      position: relative;
+    }
+    .buttons {
+      position: absolute;
+      bottom: 35px;
+      right: 35px;
+    }
+    .button {
+      color: #f2f4e6 !important;
+    }
+    button {
+      background: #2c542f;
+      color: #f2f4e6;
+      box-shadow: 1px 2px 4px #2c542f;
+      z-index: 3;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 2px;
+    }
+}

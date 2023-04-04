@@ -8,6 +8,10 @@
     </div>
     <div class="variable-component">
       <router-outlet></router-outlet>
+      <div class="buttons">
+        <button mat-button type="button" (click)="previous()" *ngIf="currentLinkIndex > 0" class="button">&larr;</button>
+        <button mat-button type="button" (click)="next()" *ngIf="currentLinkIndex < links.length-1" class="button">&rarr;</button>
+      </div>
     </div>
   </div>
 </div>
