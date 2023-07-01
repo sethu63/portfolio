@@ -16,21 +16,23 @@ This project is built on Angular. The key features of this web application which
 5. Accessibility: This app is deployed on Google Firebase, ans is available to access from all over the globe and very uncommon outages.
 
 ## Usage and demo
-###Here's how my homepage looks on a wide screen (laptop, desktop, web)
+### Here's how my homepage looks on a wide screen (laptop, desktop, web)
 <br />
 ![image](https://github.com/sethu63/portfolio/assets/72872130/397a2724-994a-42e7-8ff5-c162f137dfa8)
 
-###Here's how my homepage looks on small screen (mobile, tablet)
+### Here's how my homepage looks on small screen (mobile, tablet)
 <br />
 ![image](https://github.com/sethu63/portfolio/assets/72872130/7930fa33-79e7-4454-8a54-2dcd07803bcb)
 
-###Dynamic Quotes
+### Dynamic Quotes
+<br />
 ![Dynamic Quotes](https://github.com/sethu63/portfolio/assets/72872130/f431c85d-fd6e-408a-bfcd-29bec26c9836)
 
-###Navigate between components
+### Navigate between components
+<br />
 ![Dynamic Quotes (1)](https://github.com/sethu63/portfolio/assets/72872130/0c3ae58e-2f85-49b6-a5c7-ca219a20c53f)
 
-####Why documentation, go ahead and have a look at the website.
+#### Why documentation, go ahead and have a look at the website.
 ----->>>> https://sethu-portfolio.web.app/#/
 
 
